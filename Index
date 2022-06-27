@@ -1,0 +1,72 @@
+<html>
+
+<head>
+		<title>Registation Form</title>,
+		
+<style type="text/css">
+
+	body { background-color : gray;
+		 }
+
+	h1 { color :red ;
+		padding : 10;
+		}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+<h1><center>Registation Form </center></h1>
+<center>
+
+<Form name="frmRegistration" action="data.html">
+
+<table border="0">
+
+<tr> <td> First Name </td>	<td><input type="text"> </td> </tr>
+<tr> <td> Middle Name </td>	<td><input type="text"> </td> </tr
+<tr> <td> Last Name </td>	<td><input type="text"> </td> </tr>
+
+<tr> <td> Password </td><td><input type="password"> </td> </tr>
+
+<tr><td>Gender</td> <td> <input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female </td> </tr>
+
+<tr><td>Hobby</td>
+<td><input type="checkbox" name="hobby">Cricket
+	<input type="checkbox" name="hobby">FREE FIRE</td>
+</tr> 
+
+<tr><td>Address</td><td><textarea value="Insert Address Here" rows="3" cols="23"></textarea></td></tr>
+ 
+ 
+<tr>
+<td>City</td>
+<td>
+<select>
+	<option>Rajkot</option>
+	<option>Surat</option>
+	<option>Ahmedabad</option>
+</select>
+</td>
+</tr>
+<tr><td></td></tr>
+ <tr>
+ 
+ 
+ 		<td>&nbsp;</td>
+ 		
+ 		<td><input type="submit" name="cmdSubmit" value="Submit">
+ 		<input type="reset" name="cmdReset" value="Reset">
+ </td>
+ </tr>
+ 
+ 
+</table>
+</center>
+</body>
+</html>
